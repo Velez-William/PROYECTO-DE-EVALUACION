@@ -56,7 +56,8 @@ Este sistema modela diferentes tipos de evaluaciones académicas (Examen, Trabaj
        comporta
      *manera diferente según el tipo real del objeto. 
 
-  ![image](https://github.com/user-attachments/assets/da54657e-8385-4fe5-9950-2eff8b514b9a)
+  ![image](https://github.com/user-attachments/assets/689c999b-d615-402e-a422-ac79f13a1da4)
+
 
 
 
