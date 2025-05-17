@@ -27,7 +27,8 @@ Este sistema modela diferentes tipos de evaluaciones académicas (Examen, Trabaj
 
 
 * **Examen (subclase de Evaluacion):**
-  subclase1
+  ##subclase1
+  
   Herencia: Examen hereda de Evaluacion usando class Examen(Evaluacion):. __init__: El constructor de Examen llama al constructor de la superclase (super().__init__(nombre, fecha, puntaje)) y luego inicializa los atributos 
   específicos de Examen (_preguntas, _respuestas_correctas).
    Getters/Setters: Se implementan los getters y setters para los atributos propios de la clase Examen.
@@ -38,7 +39,8 @@ Este sistema modela diferentes tipos de evaluaciones académicas (Examen, Trabaj
   ![image](https://github.com/user-attachments/assets/b1133af4-fccf-4e1d-868b-3f382e805a13)
 
 
-  subclase 2
+  ###subclase 2
+  
   Herencia: Trabajo también hereda de Evaluacion. __init__: Constructor similar a Examen, inicializando atributos de la superclase y los propios (_calificacion_tecnica, _calificacion_presentacion).
   Getters/Setters: Getters y setters para los atributos de Trabajo.
   calcular_nota() (Polimorfismo): Implementación específica para calcular la nota de un trabajo, con una ponderación de la calificación técnica y de presentación. 
@@ -48,7 +50,8 @@ Este sistema modela diferentes tipos de evaluaciones académicas (Examen, Trabaj
 ![image](https://github.com/user-attachments/assets/05a1432b-b4a3-4a1c-975d-4bd5fc190e16)
 
 
-* **main.py 
+* **main.py
+  
      *Importaciones: Importa las clases necesarias (Evaluacion, Examen, Trabajo) y date.
       *Instanciación: Crea instancias de Examen y Trabajo.
       *Uso de Métodos: Llama a los métodos calcular_nota() y otros para demostrar su funcionamiento.
